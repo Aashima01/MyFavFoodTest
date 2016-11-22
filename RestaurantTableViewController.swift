@@ -12,7 +12,7 @@ import UIKit
 class RestaurantTableViewController: UITableViewController {
     
     var restaurants:[Restaurant] = [
-        Restaurant(name: "Cafe Supernatural", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "123-456-7890", image: "barrafina" , type: "Cafe" , isVisited: false),
+        Restaurant(name: "Cafe Supernatural Test Res name change", location: "G/F, 72 Po Hing Fong, Sheung Wan, Hong Kong", phone: "123-456-7890", image: "barrafina" , type: "Cafe" , isVisited: false),
         Restaurant(name: "Dominoe's Pizza", location: "Shop B, G/F, 22-24A Tai Ping San Street SOHO, Sheung Wan, Hong Kong",phone: "123-456-7890", image: "teakha" , type: "Bakery" , isVisited: false),
         Restaurant(name: "Papa Johns", location: "Shop B, G/F, 22-24A Tai Ping San Street SOHO, Sheung Wan, Hong Kong",phone: "123-456-7890", image: "traif" , type: "Italian" , isVisited: false),
         Restaurant(name: "Italian Bristro", location: "633 Bourke St Sydney New South Wales 2010 Surry Hills",phone: "123-456-7890", image: "upstate" , type: "Indian" , isVisited: false),
